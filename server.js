@@ -19,7 +19,7 @@ const app = require('fastify')({
  })
  
  // Run the server!
- app.listen({ port: 3000 }, (err, address) => {
+ app.listen({ port: 4000 }, (err, address) => {
     if (err) {
        app.log.error(err)
        process.exit(1)
